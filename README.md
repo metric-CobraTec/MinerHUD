@@ -1,4 +1,4 @@
-# MinerHUD V1.01#
+# MinerHUD V1.01 #
 ![MinerHUD](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/minerhud.jpg)
 ![MinerHUDv1](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/MinerHUDv1.jpg)
 
