@@ -32,7 +32,7 @@ Enjoy a more motivating mining experience by watching your ore and quanta balanc
 Multiple Color schemes available
 
 ## Requirements ##
-- Remote controller or programming board. RC recommended because of better maximum range.
+- Remote controller or programming board. RC recommended because of increased maximum range.
 - Screen, any size will do
 - Container hub and/or container
 
