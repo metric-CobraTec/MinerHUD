@@ -1,5 +1,6 @@
 # MinerHUD #
-![MinerHUD](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/MinerHUDv1.jpg)
+![MinerHUD](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/minerhud.jpg)
+![MinerHUDv1](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/MinerHUDv1.jpg)
 
 ## Introduction ##
 Providing an enhancement of the Dual Universe interface and improved gameplay experience.<br>
