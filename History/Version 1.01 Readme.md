@@ -115,3 +115,4 @@ Upcoming features include but not limited to:
 - Territory Scanner, Make sure your vessel comes to a complete stop before activating to avoid scanner interruption
 
 - Underwater mining, when activating MinerHUD through your control unit it will try to disable your engines and adjusters
+
