@@ -174,7 +174,7 @@ Upcoming features include but not limited to:
 
 - Work Around #1: Deploy dynamic construct for territory scanner
 
-- Work Around #2: Deploy dynamic construct with controller and territory scanner
+- Work Around #2: Deploy seperate dynamic construct with controller + container
 
 - Work Around #3: Use programming board with as disadvantage: reduced range 
 
