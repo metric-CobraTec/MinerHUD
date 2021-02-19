@@ -1,4 +1,4 @@
-# MinerHUD Version 2.00#
+# MinerHUD Version 2.00 #
 ![MinerHUD](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/version2/MinerHUDv2-intro.jpg)
 
 ## Introduction ##
