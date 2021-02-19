@@ -145,9 +145,9 @@ Upcoming features include but not limited to:
 - Removed: Display Version number setting
 - Removed: Parameters
 - Removed: Additional screen
-- Moved: Alert for total maximum weight, moved to panel 
-- Moved: Territory scanner completed, moved to panel
-- Moved: Territory scanner running, moved to panel 
+- Moved: Alert total maximum weight to panel 
+- Moved: Alert Territory scanner completed to panel
+- Moved: Alertm Territory scanner running to panel 
 - Improvement: Distance ranges easier readable
 - Improvement: Code optimization
 
