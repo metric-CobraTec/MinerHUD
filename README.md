@@ -48,9 +48,9 @@ Multiple Color schemes available
 > It is recommended you deploy your control unit aside the container hub or container for optimal distance meter results.
 
 1. Deploy your Control Unit (remote controller or programming board)
-2. Link remote controller to container hub or container
-3. Copy MinerHUD content from MinerHUD.txt to your clipboard
-4. Right click control unit -> Advanced -> Paste Lua Configuration from Clipboard
+2. Copy MinerHUD content from MinerHUD.txt to your clipboard
+3. Right click control unit -> Advanced -> Paste Lua Configuration from Clipboard
+4. Link remote controller to container hub or container
 
 Recommended you change MinerHUD settings to your needs.
 Preloaded with default settings.
