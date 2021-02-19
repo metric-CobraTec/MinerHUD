@@ -1,12 +1,9 @@
-# NEW RELEASE SOON... #
-
-# MinerHUD V1.01 #
-![MinerHUD](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/minerhud.jpg)
-![MinerHUDv1](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/MinerHUDv1.jpg)
+# MinerHUD Version 2.00#
+![MinerHUD](https://raw.githubusercontent.com/metric-CobraTec/MinerHUD/main/screenshots/version2/MinerHUDv2-intro.jpg)
 
 ## Introduction ##
 Providing an enhancement of the Dual Universe interface and improved gameplay experience.<br>
-View information at a glance of an eye without extra need to open a panel and break your work flow.
+View information at a glance of an eye without breaking your work flow.
 
 Enjoy a more motivating mining experience by watching your ore and quanta balance grow realtime.
 
@@ -22,97 +19,173 @@ Enjoy a more motivating mining experience by watching your ore and quanta balanc
 - Display (hh:mm:ss) elapsed time
 
 ### Distance Meter ###
-- Distance meter to show your current maximum linked container range
-- Distance meter to show your current maximum unit range
+- Distance meter maximum linked range
+- Distance meter maximum unit range
 
 ### Alerts ###
-- Alert when defined weight (Kg) has been reached
-- Alert when Territory Scan has been completed
-- Alert, confirmation when Territory Scan has been started
+- Alert, Territory Scan completed
+- Alert, Territory Scan running
+- Alert, Target liters Reached
+- Alert, Target Ore Value Indication Reached
+- Alert, Target Total Ore Value Reached
+- Alert, Maximum Container Weight Reached
+
+### Experimental Hud Module Panel ###
+Side panel on your screen displaying:
+- Total Ore value based on your settings
+- Performance indicator: Liters per second
+- Performance indicator: Quantas per second
+- Alerts shown within panel
 
 ### Other ###
 Multiple Color schemes available
 
 ## Requirements ##
-- Remote controller or programming board. RC recommended because of increased maximum range.
-- Screen, any size will do
+- Remote controller or programming board. RC recommended because of better maximum range.
 - Container hub and/or container
 
 ## Installation ##
 > It is recommended you deploy your control unit aside the container hub or container for optimal distance meter results.
 
 1. Deploy your Control Unit (remote controller or programming board)
-2. Link remote controller to screen
-3. Link remote controller to container hub or container
-4. Copy MinerHUD content from MinerHUD.txt to your clipboard
+2. Link remote controller to container hub or container
+3. Copy MinerHUD content from MinerHUD.txt to your clipboard
 4. Right click control unit -> Advanced -> Paste Lua Configuration from Clipboard
+
+Recommended you change MinerHUD settings to your needs.
+Preloaded with default settings.
+
+If you're not using a remote controller, set remote controlled to false in settings.
+
+If you are using a remote controller <span style="color:red;font-weight: bold;">Make sure remote controller has been set to "true" in settings.</span><br>
+This setting will try to prevent your vessel from being launched into the air when mining underwater.
 
 ## Getting Started ##
 > TIP: Start with an empty container and get familiar with MinerHUD.
 
+<span style="color:red;font-weight: bold;">Territory Scanner Alert:</span> Scroll down to <span style="font-weight: bold;">Caution</span> for further information
+
 Activate your control unit to enable your MinerHUD.
 
-Change settings to your needs.
+Use ALT + 1 , shortcut key to activate your territory scanner alert
 
-Use ALT + 1 shortcut key to activate your Territory Scanner Alert
+Use ALT + 2 , toggle MinerHUD experimental Module
 
-## Available Settings ##
-- unit range
-- linked container range
-- display default or colored distance meter indicators
-- set color scheme
-- set maximum kg weight to activate alert
-- display version
-- display manual shutdown shortcut
-- display unit panel
-- ore indication price
-- exclude volume (your current cargo) from value calculation
+Alerts will automatically activate MinerHUD experimental Module
 
-### Parameters ###
-Right click your control unit -> advanced -> Edit Lua Parameters
 
-|                            | Description                                          | Type    | Checkbox | Example |
-|----------------------------|------------------------------------------------------|---------|----------|---------|
-| minusLiter                 | exclude volume from HUD and value calculation        | number  | false    | 5000.75 |
-| unitRange                  | set your control unit range                          | number  | false    | 1000    |
-| linkedRange                | set your maximum linked range                        | number  | false    | 250     |
-| showDistanceTriangleColors | display default or colored distance meter indicators | boolean | true     |         |
-| MaximumKG                  | set maximum cargo weight in Kg for alert             | number  | false    | 10000   |
-| version                    | display version number                               | boolean | true     |         |
-| showExit                   | display shortcut for manual shutdown                 | boolean | true     |         |
-| enableUnitPanel            | display unit panel                                   | boolean | true     |         |
-| orePrice                   | set ore indication/average price for calculation     | number  | false    | 25.01   |
-| colorSchemeDefault         | enable color scheme                                  | boolean | true     |         |
-| colorSchemeOrange          | enable color scheme                                  | boolean | true     |         |
-| colorSchemeRed             | enable color scheme                                  | boolean | true     |         |
-| colorSchemeCyan            | enable color scheme                                  | boolean | true     |         |
+## Change Settings ##
+
+Customize settings to your needs:
+
+- Right click control unit -> Advanced -> Edit Lua Script
+- Click on Unit
+- Click on Start
+- Edit user settings and ore settings
+- Click Apply to save changes
+
+
+### Available Settings/Config ###
+
+- Remote controlled
+- Theme
+- Triangle colors
+- Linked range
+- Unit range
+- Ore indication value
+- Target maximum weight
+- Target Maximum liters
+- Target ore indication value
+- Target actual ore total value
+- Tier 1/2/3/4/5 ore values
 
 ## Shortcut Keys ##
+
 | Key   | Description                    |
 |-------|--------------------------------|
 | CTRL + BACKSPACE | Shutdown MinerHUD |
-| ALT + 1 | Activate territory scanner alert upon completion |
+| ALT + 1 | Start territory scanner countdown alert |
+| ALT + 2 | Hide or show experimental Hud panel |
 
 Other Shortcut keys are currently reserved.
 
 ## Upcoming ##
+
 Upcoming features include but not limited to:
 
 - Change refresh rate
-- Alert liter/value target
-- Average quanta performance p/s
-- Average liter performance p/s
 - Required warp cells and costs calculation
 - Bar chart to show your recent mining performance
-- Improved total container ore value
 - Code optimization and reduction
 - And more...
+
+## Change Log ##
+
+### Version 2.00 ###
+
+#### Added ####
+- Experimental MinerHUD module (panel)
+- Automated detection and exclusion of non ores on start controller
+- Attempt to detect and exclude non ores every 60 seconds 
+- Actual total ore value shown in panel and updated every 60 seconds
+- Set ore values (Tier 1/2/3/4/5) for accurate calculation 
+- Performance indicator liters per second
+- Performance indicator quantas per second
+- Alerts will activate panel to inform user of changes
+- ALT + 2 Shortkey to hide or show panel 
+- Alert, set target liters
+- Alert, set target ore indication
+- Alert, set target actual total ore value
+- Boot panel will display current version
+- Prices by default set with dual.sh ore prices
+
+#### Changed ####
+- Removed: exclude volume (now automated)
+- Removed: Display shutdown setting
+- Removed: Display Version number setting
+- Removed: Parameters
+- Removed: Additional screen
+- Moved: Alert for total maximum weight, moved to panel 
+- Moved: Territory scanner completed, moved to panel
+- Moved: Territory scanner running, moved to panel 
+- Improvement: Distance ranges easier readable
+- Improvement: Code optimization
+
+#### Fixed ####
+
+### Version 1.01 ###
+#### Added ####
+#### Changed ####
+#### Fixed ####
+- Incorrect territory scanner duration
+- Unwanted lua console output
+
 
 ## Caution ##
 > DISCLAIMER: MinerHUD usage PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
 
-- While MinerHUD is active you cannot enter build mode.
+- Remote controller does not support entering build mode.
 
-- Territory Scanner, Make sure your vessel comes to a complete stop before activating to avoid scanner interruption
+- Underwater mining, when activating MinerHUD it will try to disable all your engine types
 
-- Underwater mining, when activating MinerHUD through your control unit it will try to disable your engines and adjusters
+<div style="color:red;font-weight: bold;">Territory Scanner Alert:</div>
+
+> Currently not recommended using territory scanner with <span style="font-weight: bold;">remote controller</span>, micro movements can abort your scanner
+
+- Work Around #1: Deploy dynamic construct for territory scanner
+
+- Work Around #2: Deploy dynamic construct with controller and territory scanner
+
+- Work Around #3: Use programming board with as disadvantage: reduced range 
+
+## Known Bugs and Issues ##
+Currently no bugs or issues reported.
+
+## Report bugs and Feature Requests ##
+You can send PM in Discord @ Metric#7020
+
+## External Links ##
+
+Dual Universe - [https://www.dualuniverse.game/](https://www.dualuniverse.game/ "Dual Universe")
+
+Dual.sh - [https://dual.sh/](https://dual.sh/ "Dual.sh")
