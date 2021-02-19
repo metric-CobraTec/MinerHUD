@@ -170,7 +170,7 @@ Upcoming features include but not limited to:
 
 <div style="color:red;font-weight: bold;">Territory Scanner Alert:</div>
 
-> Currently not recommended using territory scanner with <span style="font-weight: bold;">remote controller</span>, micro movements can abort your scanner
+> Currently not recommended using territory scanner on your vessel in combination with remote controller, micro movements can abort your scanner
 
 - Work Around #1: Deploy dynamic construct for territory scanner
 
