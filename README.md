@@ -192,8 +192,6 @@ Dual Universe - [https://www.dualuniverse.game/](https://www.dualuniverse.game/ 
 
 Dual.sh - [https://dual.sh/](https://dual.sh/ "Dual.sh")
 
-DU Open Source Initiative - [https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448](DU Open Source Initiative "DU Open Source Initiative")
-
-
+[DU Open Source Initiative Channel](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448)
 
 
