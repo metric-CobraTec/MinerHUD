@@ -182,7 +182,7 @@ Upcoming features include but not limited to:
 Currently no bugs or issues reported.
 
 ## Support, Report bugs and Feature Requests ##
-DU Open Source Initiative: du-miner-hud - [Visit Discord](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448)
+DU Open Source Initiative: du-miner-hud @ [Visit Discord](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448)
 <br>
 or
 You can send PM in Discord @ Metric#7020
@@ -193,6 +193,6 @@ Dual Universe - [https://www.dualuniverse.game/](https://www.dualuniverse.game/ 
 
 Dual.sh - [https://dual.sh/](https://dual.sh/ "Dual.sh")
 
-DU Open Source Initiative: du-miner-hud - [Visit Discord](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448)
+DU Open Source Initiative: du-miner-hud @ [Visit Discord](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448)
 
 
