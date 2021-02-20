@@ -181,7 +181,9 @@ Upcoming features include but not limited to:
 ## Known Bugs and Issues ##
 Currently no bugs or issues reported.
 
-## Report bugs and Feature Requests ##
+## Support, Report bugs and Feature Requests ##
+DU Open Source Initiative Channel - [https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448](DU Open Source Initiative "DU Open Source Initiative")
+or
 You can send PM in Discord @ Metric#7020
 
 ## External Links ##
@@ -190,7 +192,7 @@ Dual Universe - [https://www.dualuniverse.game/](https://www.dualuniverse.game/ 
 
 Dual.sh - [https://dual.sh/](https://dual.sh/ "Dual.sh")
 
-DU Open Source Initiative - [https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448 "DU Open Source Initiative")
+DU Open Source Initiative - [https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448](DU Open Source Initiative "DU Open Source Initiative")
 
 
 
