@@ -182,7 +182,7 @@ Upcoming features include but not limited to:
 Currently no bugs or issues reported.
 
 ## Support, Report bugs and Feature Requests ##
-DU Open Source Initiative Channel - [Visit Discord Server](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448)Initiative")
+DU Open Source Initiative Channel - [Visit Discord Server](https://discord.com/channels/760240626942869546/812517764249288745/812520452844945448)
 or
 You can send PM in Discord @ Metric#7020
 
